@@ -1,0 +1,23 @@
+# venv
+venv/
+env/
+.env
+
+# python cache
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Настройки IDE
+.vscode/
+.idea/
+
+# logs and db
+*.log
+*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
+
+./data/*
