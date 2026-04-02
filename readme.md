@@ -57,7 +57,7 @@ cp .env.example .env
 
 ### 5. Run the Application
 
-Finally, for example, start the auth project:
+Finally, start the project:
 
 
 ```bash
