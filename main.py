@@ -5,9 +5,9 @@ app = Quart(__name__)
 
 app.register_blueprint(chat_bp, url_prefix='/chat')
 
-@app.route('/ping')
+@app.route('/ping', methods=['GET'])
 async def test():
-    response = make_response('pong')
+    response = await make_response('pong')
     response.headers['Content-Type'] = 'text/plain'
     response.status_code = 200
     return response
